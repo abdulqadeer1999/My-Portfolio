@@ -37,8 +37,10 @@ function Header() {
     const classes = useStyles ()
     return (
         <Box className ={classes. typedConatiner}>
+            
+            <Grid container justify="center">
             <Avatar className ={classes.avatar} src={avatar} alt="qadeer pic" />
-            <Grid container justify="center"></Grid>
+            </Grid>
             
             <Typography className ={classes.title} variant="h4">
 

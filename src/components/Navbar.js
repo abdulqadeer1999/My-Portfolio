@@ -37,7 +37,8 @@ const useStyles = makeStyles (theme =>({
         display : "block",
         margin : "0.5rem auto",
         width: theme.spacing(13),
-        height:theme.spacing(13) 
+        height:theme.spacing(13) ,
+      
     },
     ListItem : {
         color: "tan",
