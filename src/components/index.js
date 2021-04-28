@@ -3,12 +3,14 @@ import Navbar from "./Navbar"
 import Header from "./Header"
 import Particles from "react-particles-js"
 import { makeStyles } from "@material-ui/styles"
+
  
 
 
 const useStyles = makeStyles ({
     particlesCanva : {
         position : "absolute",
+        opacity : "0.3"
 
     }
 })

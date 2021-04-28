@@ -36,7 +36,7 @@ function Header() {
 
     const classes = useStyles ()
     return (
-        <Box className ={classes. typedConatiner}>
+        <Box className ={classes.typedConatiner}>
             
             <Grid container justify="center">
             <Avatar className ={classes.avatar} src={avatar} alt="qadeer pic" />
